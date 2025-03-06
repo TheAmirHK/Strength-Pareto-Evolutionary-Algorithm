@@ -6,8 +6,9 @@ This algorithm follows simples rules:
 - Strength-based Fitness Assignment: Each individual is assigned a fitness value based on the number of solutions it dominates.
 - External Archive: Maintains an archive of non-dominated solutions. This archive is used for selection in the next generation.
 - Elitism: Ensures the best solutions are preserved across generations.
-- Nearest Neighbor-based Truncation: If the archive becomes too large, solutions are removed based on proximity to others (to maintain diversity).
-But also has several weaknesses such as: weak density estimation, making it less effective in maintaining diversity. And, struggles with convergence speed in complex problems.
+- Nearest Neighbor-based Truncation: If the archive becomes too large, solutions are removed based on proximity to others (to maintain diversity).<br>
+
+SPEA has several weaknesses such as: weak density estimation, making it less effective in maintaining diversity. And, struggles with convergence speed in complex problems.
 
 Later in 2001,  Zitzler, Laumanns, et Thiele improved SPEA-I and introduced SPEA-II in their research work "*SPEA2: Improving the Strength Pareto Evolutionary Algorithm for Multiobjective Optimization*".<br>
 This algorithm has several key improvemnets for SPEA-i that can be listed as below:
